@@ -1,0 +1,345 @@
+/* Operator Page Styles */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--blue-50) 0%, var(--blue-100) 100%);
+  padding: 1rem;
+}
+
+.content {
+  max-width: 672px;
+  margin: 0 auto;
+}
+
+.backSection {
+  margin-bottom: 1.5rem;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  color: var(--blue-600);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.backIcon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.backLink:hover {
+  color: var(--blue-700);
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.iconContainer {
+  width: 4rem;
+  height: 4rem;
+  background: var(--blue-100);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: var(--blue-600);
+}
+
+.headerIcon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--gray-600);
+}
+
+.alert {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.errorAlert {
+  background: var(--error-50);
+  border: 1px solid var(--error-200);
+  color: var(--error-700);
+}
+
+.successAlert {
+  background: var(--success-50);
+  border: 1px solid var(--success-200);
+  color: var(--success-700);
+}
+
+.alertTitle {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.alertDetails {
+  font-size: 0.875rem;
+  color: var(--success-600);
+  margin-top: 0.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputGroup label {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  margin-bottom: 0.75rem;
+}
+
+.plateInput {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  transition: border-color 0.2s;
+}
+
+.plateInput:focus {
+  outline: none;
+  border-color: var(--blue-500);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.quickButtons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.quickButton {
+  padding: 0.5rem;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-300);
+  border-radius: 0.25rem;
+  color: var(--gray-700);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.quickButton:hover {
+  background: var(--gray-200);
+}
+
+.vehicleTypeSection label {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  margin-bottom: 1rem;
+}
+
+.vehicleTypeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.vehicleTypeButton {
+  padding: 1rem;
+  border: 2px solid var(--gray-200);
+  border-radius: 0.5rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.vehicleTypeButton:hover {
+  border-color: var(--gray-300);
+}
+
+.vehicleTypeButtonActive {
+  border-color: var(--blue-500);
+  background: var(--blue-50);
+  color: var(--blue-700);
+}
+
+.vehicleTypeIcon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto 0.5rem;
+}
+
+.vehicleTypeLabel {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.vehicleTypeRate {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+}
+
+.submitButton {
+  width: 100%;
+  padding: 1.5rem;
+  background: var(--primary-600);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.submitButton:hover {
+  background: var(--primary-700);
+}
+
+.submitButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.loadingContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.submitIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.instructions {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--blue-50);
+  border-radius: 0.5rem;
+}
+
+.instructionsTitle {
+  font-weight: 500;
+  color: var(--blue-900);
+  margin-bottom: 0.5rem;
+}
+
+.instructionsList {
+  font-size: 0.875rem;
+  color: var(--blue-700);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.simulation {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: var(--gray-100);
+  border: 2px dashed var(--gray-300);
+  border-radius: 0.5rem;
+}
+
+.simulationHeader {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.simulationTitle {
+  font-weight: 500;
+  color: var(--gray-700);
+  margin-bottom: 0.5rem;
+}
+
+.simulationContent {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.simulationQR {
+  margin: 0 auto 0.5rem;
+  max-width: 150px;
+}
+
+.simulationPlate {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.simulationVehicleType {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+}
+
+.simulationNote {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+  margin-top: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .plateInput {
+    font-size: 1.25rem;
+    padding: 0.875rem;
+  }
+
+  .vehicleTypeGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .submitButton {
+    font-size: 1.125rem;
+    padding: 1.25rem;
+  }
+
+  .quickButtons {
+    grid-template-columns: 1fr;
+  }
+}

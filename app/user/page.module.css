@@ -1,0 +1,452 @@
+.container {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.containerWelcome {
+  background: linear-gradient(135deg, var(--primary-50) 0%, var(--primary-100) 100%);
+}
+
+.containerEntry {
+  background: linear-gradient(135deg, var(--success-50) 0%, var(--success-100) 100%);
+}
+
+.containerTicket {
+  background: linear-gradient(135deg, var(--success-50) 0%, var(--success-100) 100%);
+}
+
+.containerScan {
+  background: linear-gradient(135deg, var(--warning-50) 0%, var(--warning-100) 100%);
+}
+
+.containerExit {
+  background: linear-gradient(135deg, var(--success-50) 0%, var(--success-100) 100%);
+}
+
+.content {
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-600);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s ease;
+}
+
+.backButton:hover {
+  color: var(--primary-700);
+}
+
+.backButtonSuccess {
+  color: var(--success-600);
+}
+
+.backButtonSuccess:hover {
+  color: var(--success-700);
+}
+
+.backButtonWarning {
+  color: var(--warning-600);
+}
+
+.backButtonWarning:hover {
+  color: var(--warning-700);
+}
+
+.backSection {
+  margin-bottom: 1.5rem;
+}
+
+.backIcon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--gray-200);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.iconContainer {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem auto;
+}
+
+.iconPrimary {
+  background-color: var(--primary-100);
+  color: var(--primary-600);
+}
+
+.iconSuccess {
+  background-color: var(--success-100);
+  color: var(--success-600);
+}
+
+.iconWarning {
+  background-color: var(--warning-100);
+  color: var(--warning-600);
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.cardHeader {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 1rem;
+}
+
+.titleSuccess {
+  color: var(--success-700);
+}
+
+.subtitle {
+  color: var(--gray-600);
+  margin-bottom: 2rem;
+}
+
+.buttonList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.buttonPrimary {
+  background-color: var(--primary-600);
+  color: white;
+}
+
+.buttonPrimary:hover {
+  background-color: var(--primary-700);
+}
+
+.buttonWarning {
+  background-color: var(--warning-600);
+  color: white;
+}
+
+.buttonWarning:hover {
+  background-color: var(--warning-700);
+}
+
+.buttonSuccess {
+  background-color: var(--success-600);
+  color: white;
+}
+
+.buttonSuccess:hover {
+  background-color: var(--success-700);
+}
+
+.buttonDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.infoBox {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #dbeafe;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+
+.infoText {
+  font-size: 0.875rem;
+  color: #1e40af;
+}
+
+.errorBox {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background-color: var(--error-50);
+  border: 1px solid var(--error-200);
+  border-radius: 0.5rem;
+}
+
+.errorText {
+  color: var(--error-700);
+  font-size: 0.875rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary-500);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.vehicleOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.vehicleOption {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border: 2px solid var(--gray-200);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: white;
+}
+
+.vehicleOption:hover {
+  border-color: var(--success-300);
+  background-color: var(--success-50);
+}
+
+.vehicleOptionSelected {
+  border-color: var(--success-500);
+  background-color: var(--success-100);
+}
+
+.vehicleOptionLabel {
+  font-weight: 500;
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.qrContainer {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px dashed var(--gray-300);
+  margin-bottom: 1.5rem;
+}
+
+.qrImage {
+  margin: 0 auto 1rem auto;
+  max-width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+.ticketInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--gray-600);
+}
+
+.downloadButton {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.backToWelcome {
+  width: 100%;
+  background-color: var(--gray-200);
+  color: var(--gray-900);
+}
+
+.backToWelcome:hover {
+  background-color: var(--gray-300);
+}
+
+.buttonSecondary {
+  background-color: var(--gray-200);
+  color: var(--gray-900);
+}
+
+.buttonSecondary:hover {
+  background-color: var(--gray-300);
+}
+
+.buttonIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.scanButton {
+  padding: 1.5rem 1rem;
+}
+
+.scannerContainer {
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.divider {
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.dividerLine {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+}
+
+.dividerLine::before {
+  content: '';
+  width: 100%;
+  border-top: 1px solid var(--gray-300);
+}
+
+.dividerText {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 0.875rem;
+}
+
+.dividerText span {
+  padding: 0 0.5rem;
+  background-color: white;
+  color: var(--gray-500);
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ticketSummary {
+  background-color: var(--gray-50);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.ticketGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ticketField {
+  text-align: center;
+}
+
+.ticketLabel {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  margin-bottom: 0.25rem;
+}
+
+.ticketValue {
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.ticketValueSecondary {
+  font-weight: 600;
+  color: var(--gray-700);
+}
+
+.ticketDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.ticketRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticketRowTotal {
+  border-top: 1px solid var(--gray-300);
+  padding-top: 0.5rem;
+}
+
+.ticketRowLabel {
+  color: var(--gray-600);
+}
+
+.ticketRowValue {
+  font-weight: 500;
+}
+
+.ticketRowLabelBold {
+  color: var(--gray-900);
+  font-weight: 600;
+}
+
+.ticketRowValueTotal {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--success-600);
+}

@@ -1,0 +1,259 @@
+/* Counter Page Styles */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--primary-50) 0%, var(--primary-100) 100%);
+  padding: 1rem;
+}
+
+.successContainer {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--success-50) 0%, var(--success-100) 100%);
+  padding: 1rem;
+}
+
+.content {
+  max-width: 672px;
+  margin: 0 auto;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  color: var(--primary-600);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: var(--primary-700);
+}
+
+.successBackLink {
+  color: var(--success-600);
+}
+
+.successBackLink:hover {
+  color: var(--success-700);
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.iconContainer {
+  width: 4rem;
+  height: 4rem;
+  background: var(--primary-100);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: var(--primary-600);
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--gray-600);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputGroup label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary-500);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.inputError {
+  border-color: var(--error-500);
+}
+
+.errorMessage {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--error-600);
+}
+
+.vehicleTypeSection label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  margin-bottom: 1rem;
+}
+
+.vehicleTypeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.vehicleTypeButton {
+  padding: 1rem;
+  border: 2px solid var(--gray-200);
+  border-radius: 0.5rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.vehicleTypeButton:hover {
+  border-color: var(--gray-300);
+}
+
+.vehicleTypeButtonActive {
+  border-color: var(--primary-500);
+  background: var(--primary-50);
+  color: var(--primary-700);
+}
+
+.vehicleTypeIcon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto 0.5rem;
+}
+
+.vehicleTypeLabel {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.vehicleTypeRate {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+}
+
+.submitButton {
+  width: 100%;
+  padding: 1rem;
+  background: var(--primary-600);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.submitButton:hover {
+  background: var(--primary-700);
+}
+
+.submitButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.loadingContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.newEntryButton {
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary-600);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 1.5rem;
+}
+
+.newEntryButton:hover {
+  background: var(--primary-700);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .container,
+  .successContainer {
+    padding: 0.5rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .vehicleTypeGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .submitButton {
+    font-size: 1rem;
+    padding: 0.875rem;
+  }
+}.header
+IconSvg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.buttonIconSvg {
+  width: 1.25rem;
+  height: 1.25rem;
+}.backSect
+ion {
+  margin-bottom: 1.5rem;
+}
+
+.backIcon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.centerSection {
+  text-align: center;
+}

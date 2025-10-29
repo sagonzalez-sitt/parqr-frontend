@@ -1,0 +1,369 @@
+/* Entry Display Page Styles */
+.waitingContainer {
+  min-height: 100vh;
+  background: var(--gray-900);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.waitingContent {
+  text-align: center;
+}
+
+.waitingIcon {
+  width: 8rem;
+  height: 8rem;
+  background: var(--gray-700);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  color: var(--gray-400);
+}
+
+.waitingTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.waitingSubtitle {
+  font-size: 1.25rem;
+  color: var(--gray-400);
+  margin-bottom: 2rem;
+}
+
+.simulateButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.simulateButton {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 300px;
+}
+
+.simulateButtonPrimary {
+  background: var(--blue-600);
+  color: white;
+}
+
+.simulateButtonPrimary:hover {
+  background: var(--blue-700);
+}
+
+.simulateButtonSecondary {
+  background: var(--gray-600);
+  color: white;
+}
+
+.simulateButtonSecondary:hover {
+  background: var(--gray-700);
+}
+
+.confirmedContainer {
+  min-height: 100vh;
+  background: var(--success-600);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmedContent {
+  text-align: center;
+}
+
+.confirmedIcon {
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto 2rem;
+}
+
+.confirmedTitle {
+  font-size: 3.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.confirmedSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.confirmedMessage {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.printedContainer {
+  min-height: 100vh;
+  background: var(--orange-600);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.printedContent {
+  text-align: center;
+}
+
+.printedIcon {
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto 2rem;
+}
+
+.printedTitle {
+  font-size: 3.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.printedSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.printedMessage {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.displayContainer {
+  min-height: 100vh;
+  background: var(--blue-600);
+  color: white;
+  padding: 2rem;
+}
+
+.displayContent {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.displayHeader {
+  margin-bottom: 2rem;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.displayTitle {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.countdown {
+  background: var(--red-500);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.vehicleInfo {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.vehicleInfo .highlight {
+  font-weight: bold;
+  color: white;
+}
+
+.qrContainer {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 0 auto 2rem;
+  display: inline-block;
+}
+
+.qrImage {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+.instructions {
+  margin-bottom: 2rem;
+}
+
+.instructionsTitle {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.optionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  font-size: 1.25rem;
+}
+
+.optionCard {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.optionIcon {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto 0.5rem;
+}
+
+.optionTitle {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.optionDescription {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.actionButtons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.actionButton {
+  padding: 2rem 3rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.actionButton:hover {
+  transform: scale(1.05);
+}
+
+.actionButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.photoButton {
+  background: var(--success-600);
+  color: white;
+}
+
+.photoButton:hover {
+  background: var(--success-700);
+}
+
+.printButton {
+  background: var(--orange-600);
+  color: white;
+}
+
+.printButton:hover {
+  background: var(--orange-700);
+}
+
+.actionIcon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.additionalInfo {
+  margin-top: 2rem;
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.additionalInfo p {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .displayContainer {
+    padding: 1rem;
+  }
+
+  .displayTitle {
+    font-size: 2rem;
+  }
+
+  .countdown {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .vehicleInfo {
+    font-size: 1.25rem;
+  }
+
+  .qrImage {
+    width: 300px;
+    height: 300px;
+  }
+
+  .instructionsTitle {
+    font-size: 1.5rem;
+  }
+
+  .optionsGrid {
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+  }
+
+  .actionButtons {
+    grid-template-columns: 1fr;
+  }
+
+  .actionButton {
+    padding: 1.5rem 2rem;
+    font-size: 1.25rem;
+  }
+
+  .waitingTitle {
+    font-size: 2rem;
+  }
+
+  .confirmedTitle,
+  .printedTitle {
+    font-size: 2.5rem;
+  }
+
+  .simulateButton {
+    min-width: 250px;
+    font-size: 1rem;
+  }
+}.wait
+ingIconSvg {
+  width: 4rem;
+  height: 4rem;
+}

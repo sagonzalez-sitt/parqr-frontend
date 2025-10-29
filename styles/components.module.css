@@ -1,0 +1,133 @@
+/* Botones */
+.btn {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.btnPrimary {
+  background-color: var(--primary-600);
+  color: white;
+}
+
+.btnPrimary:hover {
+  background-color: var(--primary-700);
+}
+
+.btnSuccess {
+  background-color: var(--success-600);
+  color: white;
+}
+
+.btnSuccess:hover {
+  background-color: var(--success-700);
+}
+
+.btnWarning {
+  background-color: var(--warning-600);
+  color: white;
+}
+
+.btnWarning:hover {
+  background-color: var(--warning-700);
+}
+
+.btnError {
+  background-color: var(--error-600);
+  color: white;
+}
+
+.btnError:hover {
+  background-color: var(--error-700);
+}
+
+.btnSecondary {
+  background-color: var(--gray-200);
+  color: var(--gray-900);
+}
+
+.btnSecondary:hover {
+  background-color: var(--gray-300);
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--gray-200);
+  padding: 1.5rem;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary-500);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.inputError {
+  border-color: var(--error-500);
+}
+
+.inputError:focus {
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.2);
+}
+
+/* Select */
+.select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--primary-500);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Optimización para tablets */
+@media (min-width: 768px) {
+  .btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+  }
+  
+  .input, .select {
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+  }
+  
+  .card {
+    padding: 2rem;
+  }
+}
