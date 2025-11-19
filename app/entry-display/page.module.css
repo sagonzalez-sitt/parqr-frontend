@@ -1,7 +1,7 @@
 /* Entry Display Page Styles */
 .waitingContainer {
   min-height: 100vh;
-  background: var(--gray-900);
+  background: #111827;
   color: white;
   display: flex;
   align-items: center;
@@ -15,13 +15,13 @@
 .waitingIcon {
   width: 8rem;
   height: 8rem;
-  background: var(--gray-700);
+  background: #374151;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 2rem;
-  color: var(--gray-400);
+  color: #9ca3af;
 }
 
 .waitingTitle {
@@ -32,7 +32,7 @@
 
 .waitingSubtitle {
   font-size: 1.25rem;
-  color: var(--gray-400);
+  color: #9ca3af;
   margin-bottom: 2rem;
 }
 
@@ -55,26 +55,26 @@
 }
 
 .simulateButtonPrimary {
-  background: var(--blue-600);
+  background: #2563eb;
   color: white;
 }
 
 .simulateButtonPrimary:hover {
-  background: var(--blue-700);
+  background: #1d4ed8;
 }
 
 .simulateButtonSecondary {
-  background: var(--gray-600);
+  background: #4b5563;
   color: white;
 }
 
 .simulateButtonSecondary:hover {
-  background: var(--gray-700);
+  background: #374151;
 }
 
 .confirmedContainer {
   min-height: 100vh;
-  background: var(--success-600);
+  background: #16a34a;
   color: white;
   display: flex;
   align-items: center;
@@ -109,7 +109,7 @@
 
 .printedContainer {
   min-height: 100vh;
-  background: var(--orange-600);
+  background: #ea580c;
   color: white;
   display: flex;
   align-items: center;
@@ -144,7 +144,7 @@
 
 .displayContainer {
   min-height: 100vh;
-  background: var(--blue-600);
+  background: #2563eb;
   color: white;
   padding: 2rem;
 }
@@ -173,7 +173,7 @@
 }
 
 .countdown {
-  background: var(--red-500);
+  background: #ef4444;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 9999px;
@@ -275,21 +275,21 @@
 }
 
 .photoButton {
-  background: var(--success-600);
+  background: #16a34a;
   color: white;
 }
 
 .photoButton:hover {
-  background: var(--success-700);
+  background: #15803d;
 }
 
 .printButton {
-  background: var(--orange-600);
+  background: #ea580c;
   color: white;
 }
 
 .printButton:hover {
-  background: var(--orange-700);
+  background: #c2410c;
 }
 
 .actionIcon {
@@ -362,8 +362,9 @@
     min-width: 250px;
     font-size: 1rem;
   }
-}.wait
-ingIconSvg {
+}
+
+.waitingIconSvg {
   width: 4rem;
   height: 4rem;
 }
