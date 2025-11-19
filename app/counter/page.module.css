@@ -1,13 +1,13 @@
 /* Counter Page Styles */
 .container {
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--primary-50) 0%, var(--primary-100) 100%);
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
   padding: 1rem;
 }
 
 .successContainer {
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--success-50) 0%, var(--success-100) 100%);
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
   padding: 1rem;
 }
 
@@ -19,22 +19,22 @@
 .backLink {
   display: inline-flex;
   align-items: center;
-  color: var(--primary-600);
+  color: #2563eb;
   text-decoration: none;
   margin-bottom: 1.5rem;
   transition: color 0.2s;
 }
 
 .backLink:hover {
-  color: var(--primary-700);
+  color: #1d4ed8;
 }
 
 .successBackLink {
-  color: var(--success-600);
+  color: #16a34a;
 }
 
 .successBackLink:hover {
-  color: var(--success-700);
+  color: #15803d;
 }
 
 .card {
@@ -52,24 +52,24 @@
 .iconContainer {
   width: 4rem;
   height: 4rem;
-  background: var(--primary-100);
+  background: #dbeafe;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 1rem;
-  color: var(--primary-600);
+  color: #2563eb;
 }
 
 .title {
   font-size: 1.875rem;
   font-weight: bold;
-  color: var(--gray-900);
+  color: #111827;
   margin-bottom: 0.5rem;
 }
 
 .subtitle {
-  color: var(--gray-600);
+  color: #4b5563;
 }
 
 .form {
@@ -82,14 +82,14 @@
   display: block;
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--gray-700);
+  color: #374151;
   margin-bottom: 0.5rem;
 }
 
 .input {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid var(--gray-300);
+  border: 1px solid #d1d5db;
   border-radius: 0.5rem;
   font-size: 1rem;
   transition: border-color 0.2s;
@@ -97,25 +97,25 @@
 
 .input:focus {
   outline: none;
-  border-color: var(--primary-500);
+  border-color: #3b82f6;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 .inputError {
-  border-color: var(--error-500);
+  border-color: #ef4444;
 }
 
 .errorMessage {
   margin-top: 0.5rem;
   font-size: 0.875rem;
-  color: var(--error-600);
+  color: #dc2626;
 }
 
 .vehicleTypeSection label {
   display: block;
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--gray-700);
+  color: #374151;
   margin-bottom: 1rem;
 }
 
@@ -127,7 +127,7 @@
 
 .vehicleTypeButton {
   padding: 1rem;
-  border: 2px solid var(--gray-200);
+  border: 2px solid #e5e7eb;
   border-radius: 0.5rem;
   background: white;
   cursor: pointer;
@@ -136,13 +136,13 @@
 }
 
 .vehicleTypeButton:hover {
-  border-color: var(--gray-300);
+  border-color: #d1d5db;
 }
 
 .vehicleTypeButtonActive {
-  border-color: var(--primary-500);
-  background: var(--primary-50);
-  color: var(--primary-700);
+  border-color: #3b82f6;
+  background: #eff6ff;
+  color: #1d4ed8;
 }
 
 .vehicleTypeIcon {
@@ -158,13 +158,13 @@
 
 .vehicleTypeRate {
   font-size: 0.875rem;
-  color: var(--gray-500);
+  color: #6b7280;
 }
 
 .submitButton {
   width: 100%;
   padding: 1rem;
-  background: var(--primary-600);
+  background: #2563eb;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -179,7 +179,7 @@
 }
 
 .submitButton:hover {
-  background: var(--primary-700);
+  background: #1d4ed8;
 }
 
 .submitButton:disabled {
@@ -197,7 +197,7 @@
 .newEntryButton {
   width: 100%;
   padding: 0.75rem 1.5rem;
-  background: var(--primary-600);
+  background: #2563eb;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -208,7 +208,7 @@
 }
 
 .newEntryButton:hover {
-  background: var(--primary-700);
+  background: #1d4ed8;
 }
 
 /* Responsive */
