@@ -26,13 +26,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem;
-  border-bottom: 1px solid var(--gray-200);
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .title {
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--gray-900);
+  color: #111827;
 }
 
 .closeButton {
@@ -45,7 +45,7 @@
 }
 
 .closeButton:hover {
-  background-color: var(--gray-100);
+  background-color: #f3f4f6;
 }
 
 .content {
@@ -65,7 +65,7 @@
 }
 
 .errorText {
-  color: var(--error-600);
+  color: #dc2626;
 }
 
 .retryButton {
@@ -76,12 +76,12 @@
   transition: all 0.2s ease-in-out;
   border: none;
   cursor: pointer;
-  background-color: var(--primary-600);
+  background-color: #2563eb;
   color: white;
 }
 
 .retryButton:hover {
-  background-color: var(--primary-700);
+  background-color: #1d4ed8;
 }
 
 .details {
@@ -103,18 +103,18 @@
 }
 
 .statusIcon {
-  color: var(--gray-500);
+  color: #6b7280;
 }
 
 .statusLabel {
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: #4b5563;
 }
 
 .statusId {
   font-family: monospace;
   font-size: 0.75rem;
-  background-color: var(--gray-100);
+  background-color: #f3f4f6;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
 }
@@ -127,22 +127,22 @@
 }
 
 .statusActive {
-  background-color: var(--success-100);
-  color: var(--success-700);
+  background-color: #dcfce7;
+  color: #15803d;
 }
 
 .statusCompleted {
-  background-color: var(--primary-100);
-  color: var(--primary-700);
+  background-color: #dbeafe;
+  color: #1d4ed8;
 }
 
 .statusCancelled {
-  background-color: var(--error-100);
-  color: var(--error-700);
+  background-color: #fee2e2;
+  color: #b91c1c;
 }
 
 .vehicleInfo {
-  background-color: var(--gray-50);
+  background-color: #f9fafb;
   border-radius: 0.5rem;
   padding: 1rem;
 }
@@ -152,7 +152,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
-  color: var(--gray-600);
+  color: #4b5563;
 }
 
 .vehicleGrid {
@@ -169,20 +169,20 @@
 
 .vehicleFieldLabel {
   font-size: 0.875rem;
-  color: var(--gray-500);
+  color: #6b7280;
   margin-bottom: 0.25rem;
 }
 
 .vehicleFieldValue {
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--gray-900);
+  color: #111827;
 }
 
 .vehicleFieldValueSecondary {
   font-size: 1.125rem;
   font-weight: 600;
-  color: var(--gray-700);
+  color: #374151;
 }
 
 .timeInfo {
@@ -198,7 +198,7 @@
 }
 
 .timeIcon {
-  color: var(--gray-500);
+  color: #6b7280;
 }
 
 .timeDetails {
@@ -208,7 +208,7 @@
 
 .timeLabel {
   font-size: 0.875rem;
-  color: var(--gray-500);
+  color: #6b7280;
 }
 
 .timeValue {
@@ -223,7 +223,7 @@
 .feeValue {
   font-weight: 700;
   font-size: 1.25rem;
-  color: var(--primary-600);
+  color: #2563eb;
 }
 
 .tokenSection {
@@ -244,6 +244,6 @@
   background-color: white;
   padding: 0.75rem;
   border-radius: 0.25rem;
-  border: 1px solid var(--gray-200);
+  border: 1px solid #e5e7eb;
   word-break: break-all;
 }
