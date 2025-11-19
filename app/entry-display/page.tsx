@@ -76,6 +76,16 @@ export default function EntryDisplayPage() {
       return;
     }
     
+    // Si es un ticket demo (empieza con 'demo-'), solo simular
+    if (currentTicket.ticket.qrToken.startsWith('demo-')) {
+      console.log('Ticket demo detectado, simulando confirmación');
+      setStatus('confirmed');
+      setTimeout(() => {
+        resetDisplay();
+      }, 3000);
+      return;
+    }
+    
     console.log('Confirmando foto para token:', currentTicket.ticket.qrToken);
     setLoading(true);
     
@@ -100,6 +110,16 @@ export default function EntryDisplayPage() {
       return;
     }
     
+    // Si es un ticket demo (empieza con 'demo-'), solo simular
+    if (currentTicket.ticket.qrToken.startsWith('demo-')) {
+      console.log('Ticket demo detectado, simulando impresión');
+      setStatus('printed');
+      setTimeout(() => {
+        resetDisplay();
+      }, 3000);
+      return;
+    }
+    
     console.log('Marcando como impreso para token:', currentTicket.ticket.qrToken);
     setLoading(true);
     
@@ -120,6 +140,16 @@ export default function EntryDisplayPage() {
 
   const handleAutoPrint = useCallback(async () => {
     if (!currentTicket) return;
+    
+    // Si es un ticket demo, solo simular
+    if (currentTicket.ticket.qrToken.startsWith('demo-')) {
+      console.log('Ticket demo detectado, simulando auto-impresión');
+      setStatus('printed');
+      setTimeout(() => {
+        resetDisplay();
+      }, 3000);
+      return;
+    }
     
     try {
       await apiService.markAsPrinted(currentTicket.ticket.qrToken);
